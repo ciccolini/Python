@@ -35,9 +35,15 @@ thislist.append("d")
 print(thislist)
 
 #to add another list at the end of the current list - any iterable (list, set, tuple, etc.)
+#1
 firstlist = ["a","b","c"]
 secondlist = ["d","e","f"]
 firstlist.extend(secondlist)
+print(firstlist)
+#2
+firstlist = ["a","b","c"]
+secondlist = ["d","e","f"]
+firstlist.update(secondlist)
 print(firstlist)
 
 #to add an item at a specific position
