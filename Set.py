@@ -107,3 +107,4 @@ newset = {"d","e","f"}
 settest = {"a","e","g"}
 result = thisset.union(newset, settest)
 print(result)
+exit()
