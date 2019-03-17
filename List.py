@@ -90,3 +90,4 @@ print(thislist)
 #to sort the list
 thislist.sort()
 print(thislist)
+exit()
