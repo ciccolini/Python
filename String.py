@@ -20,6 +20,10 @@ print(string)
 string = string.upper()
 print(string)
 
+#to remove the whitespace at the beginning and/or at the end
+string = " Bonjour "
+print(string.strip())
+
 #replace a string with another string
 string = "Why not?"
 print(string.replace("?", " after all!"))
