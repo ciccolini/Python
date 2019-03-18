@@ -75,3 +75,4 @@ while True:
             print("Sorry but one or both numbers are out of range")
     except NameError:
         print("It's not a number - please try again.")
+exit()
